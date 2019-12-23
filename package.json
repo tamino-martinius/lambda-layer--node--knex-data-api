@@ -1,0 +1,33 @@
+{
+  "name": "lambda-layer--node--knex-data-api",
+  "description": "AWS Lambda Layer for Node.js with KnexJs and Data-Api client",
+  "version": "2.505.0",
+  "keywords": [
+    "aws",
+    "lambda",
+    "layer",
+    "node",
+    "nodejs",
+    "knex",
+    "knexjs",
+    "data-api",
+    "dataapi",
+    "lambda layer version"
+  ],
+  "author": "Tamino Martinius <dev@zaku.eu>",
+  "license": "MIT",
+  "files": [
+    "dist/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tamino-martinius/lambda-layer--node--knex-data-api.git"
+  },
+  "engines": {
+    "node": ">=8.10.0"
+  },
+  "scripts": {
+    "prezip": "cd nodejs && npm ci; rm dist/nodejs.zip || true",
+    "zip": "zip dist/nodejs.zip nodejs -r"
+  }
+}

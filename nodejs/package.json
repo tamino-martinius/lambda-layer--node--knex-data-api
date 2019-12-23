@@ -1,0 +1,10 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "author": "Tamino Martinius",
+  "license": "MIT",
+  "dependencies": {
+    "knex": "^0.20.4",
+    "knex-data-api-client": "^1.0.0"
+  }
+}
