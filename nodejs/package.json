@@ -4,7 +4,7 @@
   "author": "Tamino Martinius",
   "license": "MIT",
   "dependencies": {
-    "knex": "^0.20.4",
+    "knex": "^2.4.0",
     "knex-data-api-client": "^1.0.0"
   }
 }
